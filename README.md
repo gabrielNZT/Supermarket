@@ -1,4 +1,4 @@
-#DESCRIPTION
+# DESCRIPTION
 
 - this program has as main objective to simulate the execution of a software used in supermarkets.
 
@@ -16,7 +16,7 @@
 - cancel the purchase of a certain product
 - show the list of purchased products
 
-##non-functional requirements:
+## non-functional requirements:
 - generate loggers
 - data security
 - usability
