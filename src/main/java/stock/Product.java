@@ -1,11 +1,23 @@
 package stock;
 
+import java.util.Date;
+
 public class Product {
 
     private String ref;
     private String name;
     private double price;
     private int qtd;
+    private Date validity;
+    private ProductType productType;
+
+    public ProductType getProductType() {
+        return productType;
+    }
+
+    public void setProductType(ProductType productType) {
+        this.productType = productType;
+    }
 
     public String getRef() {
         return ref;
@@ -17,6 +29,14 @@ public class Product {
 
     public String getName() {
         return name;
+    }
+
+    public Date getValidity() {
+        return validity;
+    }
+
+    public void setValidity(Date validity) {
+        this.validity = validity;
     }
 
     public void setName(String name) {

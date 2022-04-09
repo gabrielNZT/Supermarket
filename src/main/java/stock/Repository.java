@@ -15,6 +15,7 @@ public class Repository {
     }
 
     public ArrayList<Product> getProducts() {
-        return getProducts();
+        this.products = instance.getProducts();
+        return products;
     }
 }
